@@ -28,9 +28,12 @@ Vervolgens kan code voor het verkrijgen van de resultaten (pythoncode_resultaten
 
 **Variabelenlijst**
 
-OBSERVATIE_TIJD = Hoe lang de robot over een observatie mag doen. Een observatie is het controleren van de veiligheidseisen van personeel en de stortlocatie van een vrachtwagen.
+- OBSERVATIE_TIJD = Hoe lang de robot over een observatie mag doen. Een observatie is het controleren van de veiligheidseisen van personeel en de stortlocatie van een vrachtwagen.
+
 LOS_DUUR = Hoe lang een vrachtwagen doet over het lossen van afval.
+
 AANTAL_STORTGATEN = Aantal stortgaten die tegelijk open mogen zijn in de storthal.
+
 SIMULATIE_TIJD = In dit onderzoek worden de openingstijden van de storthal gehanteerd. Een simulatie is 1 werkdag. Simulatietijd in minuten (06:00 - 22:00 = 16 uur = 960 minuten).
 AFSTANDEN = Afstanden tussen stortgaten (meters). Dit wordt bijgehouden om te controleren of de robot een volledige werkdag kan rijden op een volledig opgeladen batterij. Daarnaast wordt er rekening gehouden met de afstanden die vrachtwagens afleggen.
 VRACHTWAGEN_SNELHEID = Max toegestane snelheid van de vrachtwagens in de storthal m/s (15 km/h).

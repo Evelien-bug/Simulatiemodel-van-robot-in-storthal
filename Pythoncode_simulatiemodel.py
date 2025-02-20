@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Dec 19 11:50:13 2024
-
-@author: eveli
-"""
 
 import simpy
 import random
@@ -11,8 +5,8 @@ from collections import defaultdict
 import pandas as pd
 
 # INPUT
-OBSERVATIE_TIJD = (5, 7)  # Observatietijd interval in minuten
-LOS_DUUR = (9, 11)  # Lengte van het losproces
+OBSERVATIE_TIJD = (3, 5)  # Observatietijd interval in minuten, AANPASSEN VOOR DRIE RUNS: 35, 57 en 79!
+LOS_DUUR = (9, 11)  # duur van het losproces
 AANTAL_STORTGATEN = 5  # Aantal stortgaten
 SIMULATIE_TIJD = 960  # Simulatietijd in minuten (06:00 - 22:00 = 16 uur = 960 minuten)
 AFSTANDEN = [0, 8, 16, 84, 92]  # Afstanden tussen stortgaten (meters)
@@ -220,7 +214,7 @@ for i in range(ITERATIES):
 
 # Resultaten exporteren naar CSV
 resultaten_df = pd.DataFrame(resultaten)
-resultaten_df.to_csv("simulatie_resultaten57.csv", index=False)
+resultaten_df.to_csv("simulatie_resultaten35.csv", index=False) # Per run aanpassen naar 57 of 79 (observatietijd)
 
 
 

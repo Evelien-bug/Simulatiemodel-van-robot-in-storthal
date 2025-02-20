@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Dec 16 12:35:22 2024
-
-@author: eveli
-"""
-
 # 1. INLADEN VAN DE PACKAGES EN GEGENEREERDE CSV-BESTANDEN
 
 # 1.1 packages inladen

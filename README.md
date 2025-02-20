@@ -23,3 +23,20 @@ De Python-code is gebruikt voor het simuleren van de prestaties van de robot en 
 **Uitvoering en resultaten**
 
 Vervolgens kan code voor het verkrijgen van de resultaten (pythoncode_resultaten_simulatie.py) worden uitgevoerd om resultaten te genereren van de simulatie.
+
+
+
+**Variabelenlijst**
+
+OBSERVATIE_TIJD = Hoe lang de robot over een observatie mag doen. Een observatie is het controleren van de veiligheidseisen van personeel en de stortlocatie van een vrachtwagen.
+LOS_DUUR = Hoe lang een vrachtwagen doet over het lossen van afval.
+AANTAL_STORTGATEN = Aantal stortgaten die tegelijk open mogen zijn in de storthal.
+SIMULATIE_TIJD = In dit onderzoek worden de openingstijden van de storthal gehanteerd. Een simulatie is 1 werkdag. Simulatietijd in minuten (06:00 - 22:00 = 16 uur = 960 minuten).
+AFSTANDEN = Afstanden tussen stortgaten (meters). Dit wordt bijgehouden om te controleren of de robot een volledige werkdag kan rijden op een volledig opgeladen batterij. Daarnaast wordt er rekening gehouden met de afstanden die vrachtwagens afleggen.
+VRACHTWAGEN_SNELHEID = Max toegestane snelheid van de vrachtwagens in de storthal m/s (15 km/h).
+AGV_SNELHEID_LAAG = AGV lage snelheid in (1 m/s).
+AGV_SNELHEID_HOOG = AGV hoge snelheid in (1,5 m/s).
+MAX_HAL_CAPACITEIT = Maximaal aantal vrachtwagens dat tegelijk in de hal aanwezig mag zijn.
+ITERATIES = Aantal iteraties (dagen) voor de simulatie
+AANTAL_VRACHTWAGENS_PER_DAG = Het aantal vrachtwagens dat per dag gemiddeld de storthal binnenkomt. (Verkregen uit de data)
+AANKOMST_VERDELING = Per uur van de dag is er berekend welk percentage van AANTAL_VRACHTWAGENS_PER_DAG er binnenkomt.

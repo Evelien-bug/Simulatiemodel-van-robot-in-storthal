@@ -16,7 +16,7 @@ Om inzicht te krijgen in het aankomstproces van de vrachtwagens is er een data a
 
 **Simulatiemodel**
 
-De Python-code is gebruikt voor het simuleren van de prestaties van de robot en de vrachtwagens in de storthal. De code voert simulaties uit om verschillende rijstrategieën en snelheden van de robot te analyseren. De resultaten van deze simulaties geven inzicht in de meest efficiënte instellingen voor het optimaliseren van de observaties en het minimaliseren van de reistijd. De simulatie (pythoncode_simulatiemodel.py) dient drie keer uitgevoerd te worden, waarbij er drie verschillende observatietijden gesimuleert worden (3-5, 5-7 en 7-9). Deze tijden worden handmatig aangepast van (3,5) naar (5,7) en (7,9). Let op: Bij elke run moet de bestandsnaam die opgeslagen wordt veranderd worden naar de getallen van de bijbehorende observatietijd: simulatie_resultaten35, simulatie_resultaten57 en simulatie_resultaten79.
+De Python-code is gebruikt voor het simuleren van de prestaties van de robot en de vrachtwagens in de storthal. De code voert simulaties uit om verschillende rijstrategieën en snelheden van de robot te analyseren. De resultaten van deze simulaties geven inzicht in de meest efficiënte instellingen voor het optimaliseren van de observaties en het minimaliseren van de reistijd. De simulatie (pythoncode_simulatiemodel.py) dient drie keer uitgevoerd te worden, waarbij er drie verschillende observatietijden gesimuleerd worden (3-5, 5-7 en 7-9). Deze tijden worden handmatig aangepast van (3,5) naar (5,7) en (7,9). Let op: Bij elke run moet de bestandsnaam die opgeslagen wordt veranderd worden naar de getallen van de bijbehorende observatietijd: simulatie_resultaten35, simulatie_resultaten57 en simulatie_resultaten79.
 
 
 
